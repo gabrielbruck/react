@@ -1,0 +1,31 @@
+.box1 {
+  width: 100vw;
+  height: 100vh;
+  background-color: greenyellow;
+}
+.box2 {
+  width: 85%;
+  height: 75%;
+  background-color: lightskyblue;
+}
+.box3 {
+  width: 75%;
+  height: 50%;
+  background-color: pink;
+  justify-content: space-evenly;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.box4 {
+  width: 45%;
+  height: 25%;
+  background-color: purple;
+}
+
+.box1,
+.box2 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}

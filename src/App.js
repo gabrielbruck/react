@@ -1,29 +1,20 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Travel from "./Day1/travel";
-import "./Day1/travel.css";
 import Box1 from "./Day1/box";
+import "./Day1/box.css";
+import boxChildren from "./Day1/boxChildren";
 
 function App() {
   return (
-    <div>
-      <Travel
-        name={"Munich"}
-        imageUrl={
-          "https://www.muenchen.de/media/shutterstock-2017/sehenswuerdigkeiten-2/rathaus-sonne-hp.jpg"
-        }
-        location={
-          "https://www.google.com/maps?q=munchen&rlz=1C5CHFA_enIL829IL829&um=1&ie=UTF-8&sa=X&ved=2ahUKEwisg_ek-4XpAhWFQEEAHfT6A_AQ_AUoAnoECDEQBA"
-        }
-      ></Travel>
-      <Travel
-        name={"Istanbul"}
-        imageUrl={"https://wallpapercave.com/wp/wp1813723.jpg"}
-        location={
-          "https://https://www.google.com/maps?q=istanbul+wallpaper&rlz=1C5CHFA_enIL829IL829&hl=en&um=1&ie=UTF-8&sa=X&ved=2ahUKEwijz4Cq_4XpAhVSoVwKHc2ZAOwQ_AUoA3oECCMQBQ.google.com/maps?q=munchen&rlz=1C5CHFA_enIL829IL829&um=1&ie=UTF-8&sa=X&ved=2ahUKEwisg_ek-4XpAhWFQEEAHfT6A_AQ_AUoAnoECDEQBA"
-        }
-      ></Travel>
+    <div className="App">
+      <Box1>
+        <boxChildren class={"box2"}>
+          <boxChildren class={"box3"}>
+            <boxChildren class={"box4"}></boxChildren>
+            <boxChildren class={"box4"}></boxChildren>
+          </boxChildren>
+        </boxChildren>
+      </Box1>
     </div>
   );
 }

@@ -3,9 +3,10 @@ import React from "react";
 class Box1 extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      username: "",
-    };
+  }
+
+  render() {
+    return <div className="box1">{this.props.children}</div>;
   }
 }
 
