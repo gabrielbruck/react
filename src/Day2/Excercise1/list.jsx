@@ -5,10 +5,10 @@ const ComplexList = () => (
   <ul>
     {List.map((item) => (
       <li key={item.id}>
-        <div>{item.id}</div>
-        <div>{item.first_name}</div>
-        <div>{item.email}</div>
-        <div>{item.country}</div>
+        <div>Id: {item.id}</div>
+        <div>First Name: {item.first_name}</div>
+        <div>Email: {item.email}</div>
+        <div>Country: {item.country}</div>
       </li>
     ))}
   </ul>

@@ -4,12 +4,13 @@ import Navigation from "./Day1/navigation";
 import "./Day1/navigation.css";
 import LandingPage from "./Day1/services";
 import Banner from "./Day1/banner";
-import ComplexList from "./Day2/list";
+import ComplexList from "./Day2/Excercise1/list";
+import Alive from "./Day2/Excercise2/alive";
 
 function App() {
   return (
     <div>
-      <ComplexList></ComplexList>
+      <Alive></Alive>
       {/* <Navigation></Navigation>
       <LandingPage></LandingPage>
       <div className="banner-background">
