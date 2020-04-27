@@ -5,12 +5,15 @@ import "./Day1/navigation.css";
 import LandingPage from "./Day1/services";
 import Banner from "./Day1/banner";
 import ComplexList from "./Day2/Excercise1/list";
-import Alive from "./Day2/Excercise2/alive";
+import Alive from "./Day2/Excercise3/alive";
+import Checkbox from "./Day2/Excercise3/checkbox";
 
 function App() {
   return (
     <div>
-      <Alive></Alive>
+      <Checkbox>
+        <Alive></Alive>
+      </Checkbox>
       {/* <Navigation></Navigation>
       <LandingPage></LandingPage>
       <div className="banner-background">
