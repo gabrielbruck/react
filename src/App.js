@@ -4,11 +4,13 @@ import Navigation from "./Day1/navigation";
 import "./Day1/navigation.css";
 import LandingPage from "./Day1/services";
 import Banner from "./Day1/banner";
+import ComplexList from "./Day2/list";
 
 function App() {
   return (
     <div>
-      <Navigation></Navigation>
+      <ComplexList></ComplexList>
+      {/* <Navigation></Navigation>
       <LandingPage></LandingPage>
       <div className="banner-background">
         <Banner
@@ -38,7 +40,7 @@ function App() {
           text2={"Graphic Design"}
           text3={"Identity Design"}
         ></Banner>
-      </div>
+      </div> */}
     </div>
   );
 }
