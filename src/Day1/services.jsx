@@ -8,7 +8,7 @@ function LandingPage() {
       <Container className="container-background">
         <Row className="white-text">
           <Col></Col>
-          <Col xs={6}>
+          <Col xs={8}>
             <h3 className="headline-center">Services</h3>
             <p className="subtext-center">
               Our vision is simple. We want to create websites and applications

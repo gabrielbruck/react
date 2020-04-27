@@ -6,13 +6,13 @@ function Navigation() {
   return (
     <Navbar bg="light" variant="light">
       <Nav className="mr-auto">
-        <Nav.Link href="#home">SERVICES</Nav.Link>
-        <Nav.Link href="#features">WORK</Nav.Link>
-        <Nav.Link className="nav-team" href="#pricing">
+        <Nav.Link href="#services">SERVICES</Nav.Link>
+        <Nav.Link href="#work">WORK</Nav.Link>
+        <Nav.Link className="nav-team" href="#Team">
           THE TEAM
         </Nav.Link>
       </Nav>
-      <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+      <i href="#home" className="fa fa-mobile fa-3x icon"></i>
     </Navbar>
   );
 }

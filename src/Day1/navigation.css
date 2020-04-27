@@ -33,5 +33,28 @@ body {
 }
 .subtext-center {
   text-align: center;
+  font-size: 25px;
   font-weight: bolder;
+}
+.icon {
+  margin-right: 50px;
+}
+.banner-column {
+  padding: 40px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  font-weight: bold;
+}
+.banner-background {
+  display: flex;
+  justify-content: center;
+}
+.banner-image {
+  width: 225px;
+}
+.banner-text {
+  display: flex;
+  justify-content: center;
 }
