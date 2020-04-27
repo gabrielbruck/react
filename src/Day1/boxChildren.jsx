@@ -1,7 +1,7 @@
 import React from "react";
 
-function boxChildren(props) {
+function BoxChildren(props) {
   return <div className={props.class}>{props.children}</div>;
 }
 
-export default boxChildren;
+export default BoxChildren;

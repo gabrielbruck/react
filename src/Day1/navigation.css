@@ -1,0 +1,37 @@
+body {
+  background-color: salmon;
+}
+
+.nav-team {
+  text-decoration: underline;
+}
+
+.navbar-nav {
+  margin-left: 100px;
+}
+.navbar-brand {
+  margin-right: 50px;
+}
+
+.LandingPage-Background {
+  height: 300px;
+}
+.container-background {
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.white-text {
+  color: white;
+}
+.headline-center {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.subtext-center {
+  text-align: center;
+  font-weight: bolder;
+}
