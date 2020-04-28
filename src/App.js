@@ -1,50 +1,58 @@
 import React from "react";
 import "./App.css";
-import Navigation from "./Day1/navigation";
-import "./Day1/navigation.css";
-import LandingPage from "./Day1/services";
-import Banner from "./Day1/banner";
-import ComplexList from "./Day2/Excercise1/list";
-import Alive from "./Day2/Excercise3/alive";
-import Checkbox from "./Day2/Excercise3/checkbox";
+import SearchBar from "./Day1/GeekOut/searchbar";
+import TodayWeather from "./Day1/GeekOut/todayweather";
+import Forecast from "./Day1/GeekOut/weatherforecast";
+const api = {
+  key: "4a61e732e28d4db683cc14ed0901c5cf",
+  base: "https://api.openweathermap.org/data/2.5/",
+};
 
 function App() {
   return (
     <div>
-      <Checkbox>
-        <Alive></Alive>
-      </Checkbox>
-      {/* <Navigation></Navigation>
-      <LandingPage></LandingPage>
-      <div className="banner-background">
-        <Banner
-          imageUrl={
-            "https://cdn3.iconfinder.com/data/icons/flat-rounded-5/50/462-512.png"
+      <div className="top_part">
+        <SearchBar></SearchBar>
+        <TodayWeather></TodayWeather>
+      </div>
+      <div className="bottom_part">
+        <Forecast
+          day={"mo"}
+          date={"16.02"}
+          image={
+            "https://cdn1.iconfinder.com/data/icons/weather-status-flat-1/64/weather-01-512.png"
           }
-          title={"USER INTERFACE DESIGN"}
-          text1={"Wireframing"}
-          text2={"Prototyping"}
-          text3={"Usabilty testing"}
-        ></Banner>
-        <Banner
-          imageUrl={
-            "https://library.kissclipart.com/20180902/yle/kissclipart-web-design-clipart-website-development-web-design-c9d0d857c2f9f0fe.png"
+          condition={"Sunny"}
+          degrees={"19°C"}
+          wind={"4mph"}
+          humidity={"63%"}
+          probabilty={"14%"}
+        ></Forecast>
+        <Forecast
+          day={"tu"}
+          date={"17.02"}
+          image={
+            "https://cdn1.iconfinder.com/data/icons/weather-2-colored/512/heavy_rainy-512.png"
           }
-          title={"CONCEPT AND IDEAS"}
-          text1={"Conceptualization"}
-          text2={"Digital Branding"}
-          text3={"Product Strategy"}
-        ></Banner>
-        <Banner
-          imageUrl={
-            "https://cdn4.iconfinder.com/data/icons/seo-rounded-pack-vol-1/512/Blogging-512.png"
+          condition={"Rain"}
+          degrees={"14°C"}
+          wind={"10mph"}
+          humidity={"75%"}
+          probabilty={"95%"}
+        ></Forecast>
+        <Forecast
+          day={"we"}
+          date={"18.02"}
+          image={
+            "https://cdn1.iconfinder.com/data/icons/weather-forecast-meteorology-color-1/128/weather-partly-sunny-512.png"
           }
-          title={"DESIGN AND BRANDING"}
-          text1={"Interaction Design"}
-          text2={"Graphic Design"}
-          text3={"Identity Design"}
-        ></Banner>
-      </div> */}
+          condition={"Cloudy"}
+          degrees={"17°C"}
+          wind={"15mph"}
+          humidity={"55%"}
+          probabilty={"40%"}
+        ></Forecast>
+      </div>
     </div>
   );
 }
