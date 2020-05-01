@@ -1,4 +1,59 @@
 body {
+  margin: 0;
+}
+.display-flex {
+  display: flex;
+}
+.navigation-bar {
+  height: 100vh;
+}
+
+.content-top {
+  height: 75vh;
+  display: flex;
+}
+.content-bottom {
+  height: 25vh;
+}
+.notification-content {
+  height: 75vh;
+}
+.calendar-content {
+  height: 75vh;
+}
+.tasks {
+  height: 25vh;
+}
+.sales {
+  height: 50vh;
+}
+.calendar {
+  height: 40vh;
+}
+.activity {
+  height: 35vh;
+}
+.avatar-pic {
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 60px;
+}
+.avatar-name {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  margin-left: 10%;
+
+  letter-spacing: 0.15px;
+
+  /* Black / High Emphasis */
+
+  color: rgba(0, 0, 0, 0.87);
+}
+/* body {
   background-image: url("https://wallpaperaccess.com/full/1288076.jpg");
   background-size: cover;
 }
@@ -11,7 +66,7 @@ body {
   min-height: 100vh;
 }
 /* Search-bar styling */
-
+/* 
 .search-box {
   width: 100%;
   position: absolute;
@@ -42,4 +97,4 @@ body {
   width: fit-content;
   box-shadow: 5px 5px rgba(0, 0, 0, 0.2);
   margin-bottom: 4px;
-}
+} */
